@@ -22,7 +22,6 @@
 		"babel-preset-metal": "^1.0.3",
 		"chai": "^2.3.0",
 		"isparta": "^4.0.0",
-		"karma": "^0.13.9",
 		"karma-babel-preprocessor": "^6.0.1",
 		"karma-chai": "^0.1.0",
 		"karma-chrome-launcher": "^0.2.0",
