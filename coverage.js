@@ -13,7 +13,7 @@ module.exports = function (config) {
 	config.preprocessors = {
 		'src/**/!(*.soy).js': ['coverage', 'commonjs'],
 		'src/**/*.soy.js': ['babel', 'commonjs'],
-		'bower_components/metal*/**/*.js': ['babel', 'commonjs'],
+		'node_modules/metal*/**/*.js': ['babel', 'commonjs'],
 		'test/**/*.js': ['babel', 'commonjs']
 	};
 
