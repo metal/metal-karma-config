@@ -37,7 +37,7 @@ module.exports = function (config) {
 
     preprocessors: {
 			'src/**/*.js': ['babel', 'commonjs'],
-			'node_modules/metal*/**/*.js': ['babel', 'commonjs'],
+			'node_modules/metal*/src/**/*.js': ['babel', 'commonjs'],
       'test/**/*.js': ['babel', 'commonjs']
     },
 
