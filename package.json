@@ -19,7 +19,7 @@
     "lint": "jshint index.js"
   },
   "dependencies": {
-    "babel-preset-metal": "^2.0.0",
+    "babel-preset-metal": "^3.0.0",
     "chai": "^2.3.0",
     "isparta": "^4.0.0",
     "karma-babel-preprocessor": "^6.0.1",
