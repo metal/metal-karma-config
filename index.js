@@ -14,7 +14,20 @@ var babelOptions = {
   sourceMap: 'both'
 };
 
-module.exports = function (config) {
+module.exports = function (config, opt_noSoy) {
+  var files = [];
+  if (!opt_noSoy) {
+    files.push(
+      'node_modules/metal-soy-bundle/build/bundle.js',
+      'node_modules/html2incdom/src/*.js'
+    );
+  }
+  files.push(
+    'node_modules/metal*/src/**/*.js',
+    'src/**/*.js',
+    'test/**/*.js'
+  );
+
   config.set({
   	plugins: [
   		karmaBabelPreprocessor,
@@ -28,13 +41,7 @@ module.exports = function (config) {
 
     frameworks: ['mocha', 'chai', 'sinon', 'source-map-support', 'commonjs'],
 
-    files: [
-      'node_modules/metal-soy-bundle/build/bundle.js',
-      'node_modules/html2incdom/src/*.js',
-      'node_modules/metal*/src/**/*.js',
-      'src/**/*.js',
-      'test/**/*.js'
-    ],
+    files: files,
 
     preprocessors: {
       'src/**/*.js': ['babel', 'commonjs'],
