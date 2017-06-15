@@ -1,6 +1,7 @@
 'use strict';
 
 var babelPresetMetal = require('babel-preset-metal');
+var babelPluginTransformNodeEnvInline = require('babel-plugin-transform-node-env-inline');
 var karmaBabelPreprocessor = require('karma-babel-preprocessor');
 var karmaChai = require('karma-chai');
 var karmaChromeLauncher = require('karma-chrome-launcher');
@@ -11,7 +12,7 @@ var karmaSourceMapSupport = require('karma-source-map-support');
 
 var babelOptions = {
   presets: [babelPresetMetal],
-  plugins: ['babel-plugin-transform-node-env-inline'],
+  plugins: [babelPluginTransformNodeEnvInline],
   sourceMap: 'both'
 };
 
