@@ -19,6 +19,7 @@
     "lint": "jshint index.js"
   },
   "dependencies": {
+    "babel-plugin-transform-node-env-inline": "^0.1.1",
     "babel-preset-metal": "^3.0.0",
     "chai": "^2.3.0",
     "isparta": "^4.0.0",
