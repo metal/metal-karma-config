@@ -1,6 +1,6 @@
 {
   "name": "metal-karma-config",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Metal's default configuration for Karma tests",
   "license": "MIT",
   "repository": "metal/metal-karma-config",
