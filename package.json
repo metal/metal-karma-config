@@ -23,6 +23,7 @@
     "babel-preset-metal": "^3.0.0",
     "chai": "^2.3.0",
     "isparta": "^4.0.0",
+    "karma": "^1.7.0",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
@@ -31,7 +32,7 @@
     "karma-mocha": "^0.2.0",
     "karma-sinon": "^1.0.4",
     "karma-source-map-support": "^1.2.0",
-    "mocha": "^2.2.5",
+    "mocha": "^3.0.0",
     "sinon": "^1.17.7"
   },
   "devDependencies": {
