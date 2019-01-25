@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-node-env-inline": "^0.1.1",
-    "babel-preset-metal": "^3.0.0",
+    "babel-preset-metal": "^4.1.0",
     "chai": "^2.3.0",
     "isparta": "^4.0.0",
     "karma-babel-preprocessor": "^6.0.1",
@@ -31,10 +31,10 @@
     "karma-mocha": "^0.2.0",
     "karma-sinon": "^1.0.4",
     "karma-source-map-support": "^1.2.0",
-    "mocha": "^2.2.5",
+    "mocha": "^5.2.0",
     "sinon": "^1.17.7"
   },
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.9.7"
   }
 }
